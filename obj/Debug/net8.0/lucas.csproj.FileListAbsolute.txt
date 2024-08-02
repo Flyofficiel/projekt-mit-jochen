@@ -1,0 +1,14 @@
+/Users/lucas/Projects/lucas/bin/Debug/net8.0/lucas
+/Users/lucas/Projects/lucas/bin/Debug/net8.0/lucas.deps.json
+/Users/lucas/Projects/lucas/bin/Debug/net8.0/lucas.runtimeconfig.json
+/Users/lucas/Projects/lucas/bin/Debug/net8.0/lucas.dll
+/Users/lucas/Projects/lucas/bin/Debug/net8.0/lucas.pdb
+/Users/lucas/Projects/lucas/obj/Debug/net8.0/lucas.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucas/Projects/lucas/obj/Debug/net8.0/lucas.AssemblyInfoInputs.cache
+/Users/lucas/Projects/lucas/obj/Debug/net8.0/lucas.AssemblyInfo.cs
+/Users/lucas/Projects/lucas/obj/Debug/net8.0/lucas.csproj.CoreCompileInputs.cache
+/Users/lucas/Projects/lucas/obj/Debug/net8.0/lucas.dll
+/Users/lucas/Projects/lucas/obj/Debug/net8.0/refint/lucas.dll
+/Users/lucas/Projects/lucas/obj/Debug/net8.0/lucas.pdb
+/Users/lucas/Projects/lucas/obj/Debug/net8.0/lucas.genruntimeconfig.cache
+/Users/lucas/Projects/lucas/obj/Debug/net8.0/ref/lucas.dll
