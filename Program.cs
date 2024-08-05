@@ -13,6 +13,8 @@ class Program1
          personList.AddPerson(new Person(lastname:"Tauschke",firstname:"Jessica",day:04,month:06,year:1989));
          personList.AddPerson(new Person(lastname:"Gawel",firstname:"Damian",day:26,month:06,year:1988));
          personList.AddPerson(new Person (lastname:"Baselt",firstname:"Yenelle",day:11,month:02,year:2011));
+         personList.AddPerson(new Person(lastname:"Right",firstname:"Massi",day:20,month:04,year:1988));
+         
          personList.DisplayYourNames();
     }
 }
