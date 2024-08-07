@@ -1,1 +1,1 @@
-# projekt-mit-jochen
+das ist ein program womit man personen erstellen kann und dann sie auflisten kann.

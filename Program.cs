@@ -8,7 +8,7 @@ class Program1
     {
         // Creating a List of Persons
         Group personList = new Group();
-        personList.AddPerson(new Person (lastname:"Huber",firstname:"Lucas",day:07 , month:03 , year:2007));
+        personList.AddPerson(new Person (lastname:"Huber",firstname:"Lucas",day:07 , month:03 , year:2008));
          personList.AddPerson(new Person (lastname:"Wunder",firstname:"Jochen",day:07 , month:03 , year:2007 ));
          personList.AddPerson(new Person (lastname:"Wolf",firstname:"Patrick",day:07 , month:03 , year:2007 ));
          personList.AddPerson(new Person(lastname:"Tauschke",firstname:"Jessica",day:04,month:06,year:1989));
