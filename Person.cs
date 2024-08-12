@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Data;
 
 
 
@@ -9,28 +10,34 @@ namespace lucas
     {
         string Lastname;
         string Firstname;
-        int Year;
-        int Month;
-        int Day;
+
+        DateTime Birthdate;
+      DateTime heute = DateTime.Today;
+ 
+
+   
+  
       
        
 
         //Constructor
-        public Person (string lastname, string firstname , int day , int month , int year)
+        public Person (string lastname, string firstname, DateTime birthdate)
         {
             Lastname = lastname;
             Firstname = firstname;
-            Year = year;
-            Month = month;
-            Day = day;
-            
-
+            Birthdate = birthdate;
+        
+         
+          
         }
 
         public void DisplayYourInformation ()
         {
-            Console.WriteLine ($"{Firstname} {Lastname} {Day} {Month} {Year} ");
+             int Alter = heute.Year - Birthdate.Year;
+            Console.WriteLine ($"{Firstname} {Lastname} {Birthdate.ToString("dd.mM.yyyy")} {Alter} ");
         }
+       
+        
     }
     
 }
