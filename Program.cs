@@ -19,7 +19,10 @@ class Program1
          personList.AddPerson(new Person(lastname:"Right",firstname:"Massi", birthdate: DateTime.Parse("07.03.2008", cultureInfo)));
          personList.AddPerson(new Person(lastname:"Gawel",firstname:"Adam", birthdate: DateTime.Parse("07.03.2008", cultureInfo)));
          personList.AddPerson(new Person(lastname: "huber", firstname:"julian" , birthdate: DateTime.Parse("01.01.2000" , cultureInfo)));
-
          personList.DisplayYourNames();
+
+         carpool Carpool = new carpool();
+         Carpool.addcar(new Car( marke:"BMW" , typ:"M4" , baujahr:2024));
+         Carpool.Displaycars();
     }
 }

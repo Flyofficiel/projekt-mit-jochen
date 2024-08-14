@@ -26,6 +26,7 @@ namespace lucas
             Lastname = lastname;
             Firstname = firstname;
             Birthdate = birthdate;
+           
         
          
           
@@ -34,7 +35,7 @@ namespace lucas
         public void DisplayYourInformation ()
         {
              int Alter = heute.Year - Birthdate.Year;
-            Console.WriteLine ($"{Firstname} {Lastname} {Birthdate.ToString("dd.mM.yyyy")} {Alter} ");
+            Console.WriteLine ($"{Firstname} {Lastname} {Birthdate.ToString("dd.mM.yyyy")} {Alter}  ");
         }
        
         
