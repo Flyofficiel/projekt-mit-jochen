@@ -23,6 +23,7 @@ class Program1
 
          carpool Carpool = new carpool();
          Carpool.addcar(new Car( marke:"BMW" , typ:"M4" , baujahr:2024));
+         Carpool.addcar(new Car(marke:"Mercedes" , typ:"G Klasse" , baujahr:2020));
          Carpool.Displaycars();
     }
 }
