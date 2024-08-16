@@ -7,6 +7,7 @@ class Program1
 {
     static void Main (string[] args)
     {
+        Console.WriteLine(" ");
         // Creating a List of Persons
         Group personList = new Group();
         CultureInfo cultureInfo = new CultureInfo("de-DE");
@@ -20,10 +21,13 @@ class Program1
          personList.AddPerson(new Person(lastname:"Gawel",firstname:"Adam", birthdate: DateTime.Parse("07.03.2008", cultureInfo)));
          personList.AddPerson(new Person(lastname: "huber", firstname:"julian" , birthdate: DateTime.Parse("01.01.2000" , cultureInfo)));
          personList.DisplayYourNames();
-
+        
+        Console.WriteLine(" ");
          carpool Carpool = new carpool();
          Carpool.addcar(new Car( marke:"BMW" , typ:"M4" , baujahr:2024));
          Carpool.addcar(new Car(marke:"Mercedes" , typ:"G Klasse" , baujahr:2020));
+         Carpool.addcar(new Car(marke:"BMW" , typ: "x2" , baujahr:2020));
          Carpool.Displaycars();
+         Console.WriteLine(" ");
     }
 }
