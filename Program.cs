@@ -25,8 +25,9 @@ class Program1
         Console.WriteLine(" ");
          carpool Carpool = new carpool();
          Carpool.addcar(new Car( marke:"BMW" , typ:"M4" , baujahr:2024));
+         Carpool.addcar(new Car(marke:"BMW" , typ: "X2" , baujahr:2020));
          Carpool.addcar(new Car(marke:"Mercedes" , typ:"G Klasse" , baujahr:2020));
-         Carpool.addcar(new Car(marke:"BMW" , typ: "x2" , baujahr:2020));
+         Carpool.addcar(new Car(marke:"Nissan" , typ:"GTR" , baujahr:2020));
          Carpool.Displaycars();
          Console.WriteLine(" ");
     }
