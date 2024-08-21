@@ -12,6 +12,9 @@ namespace lucas
         string Firstname;
 
         DateTime Birthdate;
+
+        Car MyCar;
+
       DateTime heute = DateTime.Today;
  
 
@@ -21,11 +24,12 @@ namespace lucas
        
 
         //Constructor
-        public Person (string lastname, string firstname, DateTime birthdate)
+        public Person (string lastname, string firstname, DateTime birthdate, Car myCar)
         {
             Lastname = lastname;
             Firstname = firstname;
             Birthdate = birthdate;
+            MyCar = myCar;
            
         
          
@@ -35,7 +39,7 @@ namespace lucas
         public void DisplayYourInformation ()
         {
              int Alter = heute.Year - Birthdate.Year;
-            Console.WriteLine ($"{Firstname} {Lastname} {Birthdate.ToString("dd.mM.yyyy")} {Alter}  ");
+            Console.WriteLine ($"{Firstname} {Lastname} {Birthdate.ToString("dd.mM.yyyy")} {Alter} {MyCar.GetCar()}");
         }
        
         

@@ -22,5 +22,10 @@ namespace lucas
                    p.Displaycar(); 
                 }
             }
+
+            public Car GetCarById (int id)
+            {
+                return Carpool.FirstOrDefault(i => i.Id == id); 
+            }
          }
 }
